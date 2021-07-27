@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width: 767px) { 
+    section {
+      background-image:url("https://storage.googleapis.com/demos.incompany.cr/UnoTrans/_MAR%C3%8DTIMO.jpg");
+    }
+    img {
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-height: 60px;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+    }
+    #centrador{
+        position: relative;
+        height: 10%;
+      }
+      
+     
+    
+
+} 
+
+  @media (max-width: 768px) { 
+    section {
+        background-color: white;
+      }
+
+      img {
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-height: 60px;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+    }
+    #centrador{
+        position: relative;
+        height: 10%;
+      }
+  }
